@@ -38,7 +38,16 @@ name = "format2tex"
 version = "0.1.0"
 dependencies = [
  "colored",
+ "format_struct",
  "regex",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "format_struct"
+version = "0.1.0"
+dependencies = [
  "serde",
  "serde_json",
 ]
